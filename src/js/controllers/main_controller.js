@@ -1,5 +1,9 @@
-angular.module('LiterarilyWalk.controllers.Main', [])
+( function ( ) {
+	angular.module('LiterarilyWalk.controllers.Main', []);
 
-.controller('MainController', function($scope){
-  
-});
+	angular.module('LiterarilyWalk.controllers.Main').controller(
+		'MainController', function( $scope ) {
+
+		} ) ;
+
+} ) ( );

@@ -1,9 +1,13 @@
-angular.module('LiterarilyWalk', [
-  'ngRoute',
-  'mobile-angular-ui',
-  'LiterarilyWalk.controllers.Main'
-])
+( function ( ) {
+	angular.module ( 'LiterarilyWalk' , [
+	  'ngRoute' ,
+	  'mobile-angular-ui' ,
+	  'LiterarilyWalk.controllers.Main'
+	] ) ;
 
-.config(function($routeProvider) {
-  $routeProvider.when('/', {templateUrl:'home.html',  reloadOnSearch: false});
-});
+	angular.module ( 'LiterarilyWalk' ) . config ( function( $routeProvider ) {
+	  $routeProvider.when (
+	  	'/' , { templateUrl : 'home.html',  reloadOnSearch : false } ) ;
+	} );
+
+} ) ( );
